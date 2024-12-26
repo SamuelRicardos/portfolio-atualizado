@@ -20,6 +20,14 @@
     .projetos .container-projetos {
         padding: 0 30px;
     }
+
+    .section_sobremim {
+        padding: 30px;
+    }
+
+    .section_tecnologias {
+        padding: 30px;
+    }
 }
 
 @media(max-width: 425px) {
@@ -37,5 +45,17 @@
 
     .projetos {
         padding: 30px;
+    }
+
+    .section_sobremim {
+        padding: 30px;
+    }
+
+    .section_tecnologias {
+        padding: 30px;
+    }
+
+    .section_tecnologias .titulo{
+        font-size: 40px;
     }
 }
