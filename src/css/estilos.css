@@ -32,7 +32,6 @@ body {
 
 .cabecalho .menu li a {
 	font-size: 20px;
-	text-transform: capitalize;
 	padding: 10px 20px;
 	transition: 0.2s;
 	/*  */
@@ -41,6 +40,11 @@ body {
     color: #fff;
     text-decoration: none;
     position: relative;
+}
+
+.texto-sobremim{
+	font-size: 20px;
+	text-align: justify;
 }
 
 a::after {
