@@ -8,9 +8,14 @@ body {
 	margin: 0 auto;
 	max-width: 1120px;
 	
-	background: linear-gradient(150deg, #000000, #9e00ff);
+	background: linear-gradient(150deg, #000000, #400064);
 	background-size: 120% 120%;
 	
+}
+
+:root {
+	--bg-color: #09000F;
+	--main-color: #00ffee;
 }
 
 .cabecalho {
@@ -71,7 +76,7 @@ a::after {
 .home .informacoes {
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 35px;
 	letter-spacing: 2px;
 	padding: 0 15px;
 	max-width: 50%;
@@ -80,7 +85,93 @@ a::after {
 .home .informacoes h1 {
 	font-family: "Raleway", sans-serif;
 	font-size: 45px;
-	margin-bottom: 20px;
+}
+
+.home .informacoes h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+}
+
+.text-animation {
+	font-size: 34px;
+	font-weight: 600;
+	min-width: 280px;
+}
+
+.text-animation span{
+	position: relative;
+}
+
+.text-animation span::before {
+	content: "Desenvolvedor web";
+	color: var(--main-color);
+	animation: words 20s infinite;
+}
+
+.text-animation span::after {
+	content: "";
+	position: absolute;
+	width: calc(100% + 8px);
+	background: var(--bg-color);
+	border-left: 3px solid var(--bg-color);
+	height: 100%;
+	right: -8px;
+	animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+	to {
+		border-left: 2px solid var(--main-color);
+	}
+}
+
+@keyframes words {
+	0%,
+	20%{
+		content: "Desenvolvedor fullstack";
+	}
+	21%,
+	40% {
+		content: "Desenvolvedor front-end";
+	}
+	41%,
+	60% {
+		content: "Desenvolvedor back-end";
+	}
+	61%,
+	80% {
+		content: "Desenvolvedor web";
+	}
+	81%,
+	100% {
+		content: "Softaware Tester";
+	}
+}
+
+@keyframes typing {
+	10%,
+	15%,
+	30%,
+	35%,
+	50%,
+	55%,
+	70%,
+	75%,
+	90%,
+	95% {
+		width: 0;
+	}
+	5%,
+	20%,
+	25%,
+	40%,
+	45%,
+	60%,
+	65%,
+	80%,
+	85% {
+		width: calc(100% + 8px);
+	}
 }
 
 .home .informacoes p {
