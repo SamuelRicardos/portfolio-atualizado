@@ -223,7 +223,7 @@ a::after {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to right, #3d1250, #611f91, #b63ea2);
+	background: linear-gradient(to right, #3d1250, #5e01a1, #e6b8de);
 	background-size: 180% 180%;
 	animation: gradient-animation 5s ease infinite;
 	animation: flutuar 10s infinite alternate;
