@@ -20,5 +20,3 @@ function mostrarMaisProjetos() {
         projetoInativo.classList.add('ativo');
     });
 }
-
-// forEach é um laço da constante para prender as classes para cada projeto inativo aconteça alguma coisa se clickar no botão

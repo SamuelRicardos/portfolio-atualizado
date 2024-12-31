@@ -142,10 +142,6 @@ a::after {
 	80% {
 		content: "Desenvolvedor web";
 	}
-	81%,
-	100% {
-		content: "Softaware Tester";
-	}
 }
 
 @keyframes typing {
@@ -227,7 +223,7 @@ a::after {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to right, #3d1250, #81599e, #b63ea2);
+	background: linear-gradient(to right, #3d1250, #611f91, #b63ea2);
 	background-size: 180% 180%;
 	animation: gradient-animation 5s ease infinite;
 	animation: flutuar 10s infinite alternate;
@@ -303,7 +299,6 @@ a::after {
 .projetos .btn-mostrar-projetos {
 	background: none;
 	border: 1px solid #fff;
-	border-radius: 15px;
 	color: #fff;
 	width: 180px;
 	padding: 20px;
@@ -374,6 +369,30 @@ a::after {
 	    margin-bottom: 10%;
 		width: 50%; 
     margin-left: 25%;
+}
+
+.div_imagem_tecnologia {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.div_imagem_portfolio {
+	border: 2px solid #ffffff;
+	width: 15%;
+	cursor: pointer;
+}
+
+#angular{
+	padding-top: 20px;
+}
+
+#typescript{
+	padding: 20px;
+}
+
+#java {
+	padding: 20px;
 }
  
 
