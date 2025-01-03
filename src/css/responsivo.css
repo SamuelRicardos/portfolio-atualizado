@@ -45,9 +45,6 @@
         max-width: 100%;
     }
 
-    .text-animation {
-        font-size: 20px; 
-    }
 }
 
 @media(max-width: 895px) {
@@ -95,10 +92,6 @@
 
     .home{
         flex-direction: column-reverse;
-    }
-
-    .text-animation {
-        font-size: 20px; 
     }
 }
 
@@ -154,7 +147,11 @@
     }
 
     .text-animation {
-        font-size: 20px; 
+        font-size: 10px; /* Tamanho menor para dispositivos móveis */
+    }
+
+    .text-animation span::after {
+        height: 1.2em; /* Ajusta para cobrir totalmente o texto menor */
     }
 
 }

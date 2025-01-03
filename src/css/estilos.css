@@ -113,14 +113,14 @@ a::after {
 }
 
 .text-animation span::after {
-	content: "";
-	position: absolute;
-	width: calc(100% + 8px);
-	background: var(--bg-color);
-	border-left: 3px solid var(--bg-color);
-	height: 100%;
-	right: -8px;
-	animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    background: var(--bg-color);
+    border-left: 3px solid var(--bg-color);
+    height: 1.2em; /* Ajusta a altura para corresponder ao tamanho da fonte */
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 
 @keyframes cursor {
