@@ -308,7 +308,7 @@ a::after {
 	background: var(--main-color);
 	box-shadow: 0 0 25px var(--main-color);
 	border-radius: 4rem;
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	color: black;
 	border: 2px solid transparent;
 	letter-spacing: 0.1rem;
@@ -433,14 +433,13 @@ a::after {
 }
 
 .contact form .input-box {
-	margin-right: 135px;
 	flex-wrap: wrap;
 }
 
 .contact form .input-box input {
 	width: 100%;
 	padding: 1.5rem;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 .contact form textarea {
@@ -455,7 +454,7 @@ a::after {
 	background: var(--main-color);
 	box-shadow: 0 0 25px var(--main-color);
 	border-radius: 4rem;
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	color: black;
 	border: 2px solid transparent;
 	letter-spacing: 0.1rem;

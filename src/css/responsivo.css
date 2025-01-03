@@ -147,11 +147,11 @@
     }
 
     .text-animation {
-        font-size: 10px; /* Tamanho menor para dispositivos móveis */
+        font-size: 10px;
     }
 
     .text-animation span::after {
-        height: 1.2em; /* Ajusta para cobrir totalmente o texto menor */
+        height: 1.2em;
     }
 
 }
