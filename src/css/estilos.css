@@ -82,6 +82,10 @@ a::after {
 	max-width: 50%;
 }
 
+#menu-icon {
+	display: none; /* Oculta o ícone de menu */
+}
+
 .home .informacoes h1 {
 	font-family: "Raleway", sans-serif;
 	font-size: 45px;
