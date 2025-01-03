@@ -1,4 +1,4 @@
-
+// lógica de mostrar e esconder os projetos
 const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
 const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 
@@ -21,6 +21,7 @@ function mostrarMaisProjetos() {
     });
 }
 
+// inicio de lógica do icone de menu
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.menu');
 let sections = document.querySelectorAll('section');
@@ -50,3 +51,14 @@ menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 })
+
+// lógica de voltar para o inicio ao dar refresh na pagina
+
+window.onload = () => {
+    if (window.location.hash) {
+        // Remove o hash da URL
+        window.history.replaceState(null, null, window.location.pathname);
+        // Rola para o topo (sessão home)
+        window.scrollTo(0, 0);
+    }
+};
