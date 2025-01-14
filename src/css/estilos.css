@@ -65,7 +65,7 @@ a::after {
 	min-height: calc(100vh - 125px);
 	align-items: center;
 	gap: 50px;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding: 0px 70px;
 }
 
